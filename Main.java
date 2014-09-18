@@ -24,11 +24,11 @@ public class Main {
       // call corresponding task to run search
       Search search = new Search(nodes, distances);
       switch (task) {
-        case 1: search.BreadthFirst(source, destination);
+        case 1: search.breadthFirst(source, destination);
                 break;
-        case 2: search.DepthFirst(source, destination);
+        case 2: search.depthFirst(source, destination);
                 break;
-        case 3: search.UniformCost(source, destination);
+        case 3: search.uniformCost(source, destination);
                 break;
       }
     } catch(IOException e) {
