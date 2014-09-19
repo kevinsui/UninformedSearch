@@ -63,9 +63,6 @@ public class Search {
     // get entire expansion performed by the search
     String expansion = getExpansion(visited);
     // write solutions to output file
-    System.out.println(expansion);
-    System.out.println(solution);
-    System.out.println(totalDistance);
     writeToFile(expansion, solution, totalDistance);
   }
 
@@ -126,9 +123,6 @@ public class Search {
     // get entire expansion performed by the search
     String expansion = getExpansion(visited);
     // write solutions to output file
-    System.out.println(expansion);
-    System.out.println(solution);
-    System.out.println(totalDistance);
     writeToFile(expansion, solution, totalDistance);
   }
 
@@ -197,9 +191,6 @@ public class Search {
     // get entire expansion performed by the search
     String expansion = getNodeExpansion(closed);
     // write solutions to output file
-    System.out.println(expansion);
-    System.out.println(solution);
-    System.out.println(totalDistance);
     writeToFile(expansion, solution, totalDistance);
   }
 
